@@ -23,6 +23,7 @@ body {
 }
 
 /*HEADER SECTION*/
+/*Problem with background image showing on Github. Attempted solution is changing the configuration of the relative link as shown below*/
 header {
     background-image: url(../img/full-background.png);
     background-position: center;
