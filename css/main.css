@@ -1,0 +1,179 @@
+/*BASE STYLES Since these is the base style information I have, no need to indicate FF and C where the base style is what the web comp specifies*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+/*GRID*/
+.full-width{
+    margin: 0 auto;
+    /*top+bottom set at zero so that the three sections stack directly on top of one another with no margin*/
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*HEADER SECTION*/
+header {
+    background-image: url(/img/full-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding: 0px;
+}
+
+header h1 {
+    color: #bbc085;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    padding: 65px 0px 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 80px;
+}
+
+header h2 {
+    clear: both;
+    color:#9b9b9b;
+    font-family: "Lora", serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0px 20px 25px;
+    width: 1000px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+/*ABOUT SECTION*/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*WORK SECTION*/
+/*There is a discrepancy between my spacing and that of the webcomp. The model has 5 lines a piece for HTML and CSS section. My line breaks are at different places. I thought it was my padding and element sizing but I have checked the solution and it's right. Let's see how it pans out. Turns out it was my zoom out feature that was altering my proportions--lesson learned, check appearance at 100% Zoom for static website */
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#work p {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 50px;
+}
+
+/*CONTACT SECTION*/
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 100px 0px;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0px 10px 0px 115px;
+}
+
+#contact h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight:lighter;
+    line-height: 44px;
+    margin: -30px 0px 5px 0px;
+}
+
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0px 0px 0px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
